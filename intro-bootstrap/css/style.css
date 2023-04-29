@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: inline-block;
+    list-style: square inside;
+    margin-left: 15px;
+}
+
+
+
+
+.caja{
+    background-image: url(../img/ba1.jpg);
+    height: 1000px;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    text-align: right;
+    font-size: 2em;
+    padding: 10px 80px;  
+}
+
+
+
+
+
+
+h1 {
+    text-align: right;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    text-align: right;
+    color: rgb(255, 255, 255);  
+  }
+
+.TextoPlaya {
+    color: rgb(120, 255, 47);
+    font-style: italic;
+    text-decoration: underline 2px white;
+    font-weight: bold
+}
+
+
+
+.container {
+  max-width:max-content ; 
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex !important; /* ETIQUETA QUE POSICIONA UNO AL LADO DEL OTRO */
+  flex-wrap: wrap;
+}
+
+.caja3{
+    background-image: url(../img/honolulu.jpg);
+    height: 700px;
+    width: 1200px;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    text-decoration: solid; 
+    font-size: 2em; 
+    
+
+}
+
+
+.caja4{
+    background-color: rgb(59, 61, 82);
+    height: 700px;
+    width: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 2em; 
+    position: absolute;
+
+    
+
+}
+
+
+.caja5{
+    background-color: rgb(248, 250, 255) ;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat; 
+    color: rgb(23, 21, 21);
+    text-align: center;
+    font-size: 2em;
+}
